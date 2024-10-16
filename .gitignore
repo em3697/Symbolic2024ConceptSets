@@ -1,2 +1,5 @@
 *.DS_Store
 
+cluster_debug.txt
+
+last_model.pth

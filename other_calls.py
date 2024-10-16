@@ -8,8 +8,16 @@ embeddings = model.encode([[instruction,term]])
 embeddings = model.encode([[instruction2,term_definition]])
 print(embeddings)
 
-# Load model directly
-from transformers import AutoTokenizer, AutoModel
 
-tokenizer = AutoTokenizer.from_pretrained("yinghy2018/CoRTEx")
-model = AutoModel.from_pretrained("yinghy2018/CoRTEx")
+
+
+
+# run the code below, or you can go to the original file to change the codes.
+from generate_faiss_index import get_instructor_embed
+import torch
+model= torch.load(ori_Instructor_path).to(device)
+
+phrase_list = []
+
+# Here the "phrase_list" is a python list containing the terms you want to encode.
+get_instructor_embed(phrase_list, model, batch_size=128)

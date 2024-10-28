@@ -5,3 +5,8 @@ cluster_debug.txt
 last_model.pth
 
 .venv/
+
+*.RRF
+
+CODER/coderpp/train/__pycache__/
+CODER/pretrain/__pycache__/

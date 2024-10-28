@@ -119,6 +119,7 @@ if __name__ == "__main__":
     print('start testing...')
     embeddings = get_bert_embed(phrase_list[:100], model, tokenizer, summary_method="MEAN", tqdm_bar=True)
     print(embeddings.shape)
+    
     # with open('data/embeddings.npy', 'wb') as f:
     #     np.save(f, embeddings)
     # print('done testing')

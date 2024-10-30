@@ -1,0 +1,35 @@
+Id,Code,Name,Standard Class,Domain,Vocab,Validity,Concept
+760560,11007131000119102,History of removal of hemodialysis arteriovenous shunt of left upper limb,Context-dependent,Observation,SNOMED,Valid,Non-standard
+760561,11007181000119101,History of removal of hemodialysis arteriovenous shunt of right upper limb,Context-dependent,Observation,SNOMED,Valid,Non-standard
+4272012,63421002,Insertion of cannula for hemodialysis,Procedure,Procedure,SNOMED,Valid,Standard
+40486245,449288005,Infection of hemodialysis arteriovenous fistula,Disorder,Condition,SNOMED,Valid,Standard
+1243928,1875341000000104,Fluoroscopic angiography of arteriovenous dialysis graft of lower limb with contrast,Procedure,Procedure,SNOMED,Valid,Standard
+1243929,1875351000000101,Fluoroscopic angiography of arteriovenous dialysis graft of left lower limb with contrast,Procedure,Procedure,SNOMED,Valid,Standard
+1243930,1875361000000103,Fluoroscopic angiography of arteriovenous dialysis graft of right lower limb with contrast,Procedure,Procedure,SNOMED,Valid,Standard
+1243976,202667371000119101,Noncompliance with renal dialysis by caregiver,Context-dependent,Observation,SNOMED,Valid,Standard
+1244232,12267851000119108,Thrombosis associated with hemodialysis catheter,Disorder,Condition,SNOMED,Valid,Standard
+1260520,103820-7,Dialysis Medication management note,Clinical Observation,Note,LOINC,Valid,Standard
+3530453,523501000000107,Misplacement of haemodialysis catheter,Disorder,Condition,SNOMED,Invalid,Non-standard
+4332640,430332005,Infection of arteriovenous graft for hemodialysis,Disorder,Condition,SNOMED,Valid,Standard
+36676678,773611006,Hemodialysis catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37168537,1284922006,Hemodialysis catheter care,Procedure,Observation,SNOMED,Valid,Standard
+37168962,13481000237107,Urea molar concentration in haemodialysis fluid,Observable Entity,Measurement,SNOMED,Valid,Standard
+42537496,736919006,Insertion of hemodialysis catheter,Procedure,Procedure,SNOMED,Valid,Standard
+42539666,736922008,Insertion of tunneled hemodialysis catheter,Procedure,Procedure,SNOMED,Valid,Standard
+42872870,450865002,Insertion of nontunneled hemodialysis catheter,Procedure,Procedure,SNOMED,Valid,Standard
+44802037,523441000000106,Failure of haemodialysis catheter,Clinical Finding,Observation,SNOMED,Valid,Standard
+45758328,462976008,Hemodialysis dialyzer reprocessing system,Physical Object,Device,SNOMED,Valid,Standard
+45758828,463735000,Microdialysis system catheter,Physical Object,Device,SNOMED,Valid,Standard
+45764388,701063000,"Hollow-fiber hemodialysis dialyzer, low flux, single-use",Physical Object,Device,SNOMED,Invalid,Non-standard
+45764392,701068009,"Parallel-plate hemodialysis dialyzer, disposable-insert",Physical Object,Device,SNOMED,Invalid,Non-standard
+45764406,701083004,"Parallel-plate hemodialysis dialyzer, high-permeability",Physical Object,Device,SNOMED,Valid,Standard
+45764439,701122009,"Hollow-fiber hemodialysis dialyzer, low flux, reusable",Physical Object,Device,SNOMED,Invalid,Non-standard
+45764450,701137008,"Hollow-fiber hemodialysis dialyzer, high flux, single-use",Physical Object,Device,SNOMED,Invalid,Non-standard
+45771153,701131009,"Hollow-fiber hemodialysis dialyzer, high flux, reusable",Physical Object,Device,SNOMED,Invalid,Non-standard
+45771590,463137004,Hemodialysis system dialyzer holder,Physical Object,Device,SNOMED,Valid,Standard
+45773267,701091008,"Parallel-plate hemodialysis dialyzer, standard",Physical Object,Device,SNOMED,Valid,Standard
+45877852,LA18624-9,"Hemodialysis - temporary, uncuffed catheter",Answer,Meas Value,LOINC,Valid,Standard
+45885327,LA18626-4,Hemodialysis - tunneled catheter,Answer,Meas Value,LOINC,Valid,Standard
+4230419,438787007,Doppler ultrasonography of arteriovenous fistula for hemodialysis,Procedure,Procedure,SNOMED,Valid,Standard
+45757844,462231004,Hemodialysis fistula dressing,Physical Object,Device,SNOMED,Valid,Standard
+45879999,LA18625-6,Hemodialysis - arteriovenous fistula,Answer,Meas Value,LOINC,Valid,Standard

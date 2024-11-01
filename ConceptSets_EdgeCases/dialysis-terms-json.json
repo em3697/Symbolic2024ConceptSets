@@ -1,0 +1,211 @@
+{
+  "procedures": [
+    "initiation of chronic outpatient hemodialysis",
+    "outpatient hemodialysis procedure",
+    "tunneled dialysis catheter insertion",
+    "arteriovenous fistula creation",
+    "arteriovenous graft placement",
+    "peritoneal dialysis catheter placement",
+    "declotting of arteriovenous fistula",
+    "angioplasty of arteriovenous fistula",
+    "catheter exchange over guidewire",
+    "catheter site care",
+    "continuous ambulatory peritoneal dialysis training",
+    "home hemodialysis training"
+  ],
+  "dialysis_specific_tests": [
+    "urea reduction ratio percentage",
+    "single pool kt/v measurement",
+    "equilibrated kt/v",
+    "normalized protein catabolic rate",
+    "peritoneal equilibration test creatinine ratio",
+    "peritoneal membrane transport status",
+    "access flow measurement",
+    "recirculation percentage",
+    "venous pressure monitoring",
+    "arterial pressure readings",
+    "transmembrane pressure",
+    "ultrafiltration rate",
+    "blood flow rate",
+    "dialysate flow rate",
+    "online clearance monitoring",
+    "beta-2 microglobulin clearance",
+    "sodium modeling profile",
+    "bicarbonate saturation",
+    "hemodiafiltration clearance rates"
+  ],
+  "medications": [
+    {
+      "name": "epoetin alfa",
+      "dosage": "100 units/kg 3x weekly"
+    },
+    {
+      "name": "darbepoetin alfa",
+      "dosage": "0.45 mcg/kg weekly"
+    },
+    {
+      "name": "iron sucrose",
+      "dosage": "100mg IV weekly"
+    },
+    {
+      "name": "sodium ferric gluconate",
+      "dosage": "125mg IV weekly"
+    },
+    {
+      "name": "sevelamer carbonate",
+      "dosage": "800mg TID with meals"
+    },
+    {
+      "name": "lanthanum carbonate",
+      "dosage": "500mg TID with meals"
+    },
+    {
+      "name": "calcium acetate",
+      "dosage": "667mg TID with meals"
+    },
+    {
+      "name": "cinacalcet",
+      "dosage": "30mg daily"
+    },
+    {
+      "name": "paricalcitol",
+      "dosage": "2-5mcg with dialysis"
+    },
+    {
+      "name": "calcitriol",
+      "dosage": "0.25-0.5mcg daily"
+    },
+    {
+      "name": "dalteparin",
+      "dosage": "2500-5000 units per dialysis session"
+    },
+    {
+      "name": "tinzaparin",
+      "dosage": "2500-4500 units per dialysis session"
+    },
+    {
+      "name": "vancomycin",
+      "dosage": "20mg/kg loading dose for catheter infection"
+    }
+  ],
+  "progress_note_keywords": [
+    "pre-dialysis systolic blood pressure",
+    "pre-dialysis diastolic blood pressure",
+    "post-dialysis systolic blood pressure",
+    "post-dialysis diastolic blood pressure",
+    "prescribed dry weight",
+    "achieved ultrafiltration goal",
+    "intradialytic hypotensive episodes",
+    "pre-hemodialysis weight",
+    "post-hemodialysis weight",
+    "interdialytic weight gain",
+    "target ultrafiltration rate",
+    "access site assessment",
+    "arterial pressure at blood flow 400",
+    "venous pressure at blood flow 400",
+    "delivered kt/v",
+    "prescribed treatment time",
+    "actual treatment time",
+    "anticoagulation protocol followed",
+    "dialysate composition potassium calcium bicarbonate",
+    "dialysate temperature",
+    "blood flow problems",
+    "access recirculation check",
+    "hemostasis time",
+    "clotting issues",
+    "machine alarms",
+    "symptom scores during treatment",
+    "adequacy of initiation of dialysis measures",
+    "missed treatments",
+    "shortened treatments",
+    "access intervention needed"
+  ],
+  "treatment_parameters": [
+    {
+      "parameter": "blood flow",
+      "range": "350-450 mL/min"
+    },
+    {
+      "parameter": "dialysate flow",
+      "range": "500-800 mL/min"
+    },
+    {
+      "parameter": "dialysate temperature",
+      "range": "35.5-37.0°C"
+    },
+    {
+      "parameter": "treatment time",
+      "range": "180-240 minutes"
+    },
+    {
+      "parameter": "ultrafiltration goal",
+      "range": "0.5-13mL/kg/hr"
+    },
+    {
+      "parameter": "sodium profiling",
+      "range": "138-145 mEq/L"
+    },
+    {
+      "parameter": "bicarbonate",
+      "range": "35-40 mEq/L"
+    },
+    {
+      "parameter": "calcium",
+      "range": "2.5-3.5 mEq/L"
+    },
+    {
+      "parameter": "potassium",
+      "range": "2-4 mEq/L"
+    },
+    {
+      "parameter": "prescribed frequency",
+      "range": "3-4x weekly"
+    }
+  ],
+  "quality_indicators": [
+    {
+      "indicator": "kt/v",
+      "threshold": "greater than 1.2 single pool"
+    },
+    {
+      "indicator": "urea reduction ratio",
+      "threshold": "greater than 65%"
+    },
+    {
+      "indicator": "blood flow rate",
+      "threshold": "maintained above 400ml/min"
+    },
+    {
+      "indicator": "arterial pressure",
+      "threshold": "greater than negative 250mmHg"
+    },
+    {
+      "indicator": "venous pressure",
+      "threshold": "less than 250mmHg"
+    },
+    {
+      "indicator": "intradialytic hypotension",
+      "threshold": "less than 20% of treatments"
+    },
+    {
+      "indicator": "access infection rate",
+      "threshold": "less than 1%"
+    },
+    {
+      "indicator": "catheter use",
+      "threshold": "less than 10% of prevalent patients"
+    },
+    {
+      "indicator": "missed treatments",
+      "threshold": "less than 2%"
+    },
+    {
+      "indicator": "shortened treatments",
+      "threshold": "less than 5%"
+    },
+    {
+      "indicator": "hospitalization rate",
+      "threshold": "less than 14 days per patient-year"
+    }
+  ]
+}

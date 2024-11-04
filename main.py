@@ -1,49 +1,84 @@
-# Load model and tokenizer
-from transformers import AutoTokenizer, AutoModel
-import torch
-from sklearn.metrics.pairwise import cosine_similarity
+import pandas as pd
+import claude_lib
+import test_model as coder
+import json
+import utils
 
-tokenizer = AutoTokenizer.from_pretrained("GanjinZero/coder_eng_pp")
-model = AutoModel.from_pretrained("GanjinZero/coder_eng_pp")
+# Load reference set and group by first column
+reference_df = pd.read_csv('ConceptSets_EdgeCases/reference_sets.csv')
+##grouped_df = reference_df.groupby('concept set')
+eskd_reference_df = reference_df[reference_df['concept set'] == 'end stage kidney disease']
+eskd_reference_concepts = eskd_reference_df['Name'].to_list()
 
-# Example medical terms
-texts = ["hypertension", "high blood pressure"]
+# Evaluate gold standard similarity
+sim_reference = coder.find_similarities('end stage kidney disease', eskd_reference_concepts)
 
-# Tokenize and encode the texts
-inputs = tokenizer(texts, padding=True, truncation=True, return_tensors="pt")
+# Load file of current PHOEBE output
+eskd_phoebe_df = pd.read_csv('ConceptSets_EdgeCases/endstagerenal_phoebe_output.csv')
+eskd_phoebe_concepts = eskd_phoebe_df['Name'].to_list()
 
-# Generate embeddings with `return_dict=True`
-with torch.no_grad():
-    outputs = model(**inputs, return_dict=True)
-    embeddings = outputs.last_hidden_state[:, 0, :].detach()  # CLS token embeddings
+# Evaluate PHOEBE concept list
+sim_phoebe = coder.find_similarities('end stage kidney disease', eskd_phoebe_concepts)
 
-print(embeddings.shape)
+# Append output concepts to CODER concept list
+coder_concept_list = eskd_phoebe_concepts
 
-# Calculate cosine similarity (detached tensors for NumPy)
-similarity = cosine_similarity(embeddings[0].unsqueeze(0).numpy(), embeddings[1].unsqueeze(0).numpy())
-print(f"Similarity between terms: {similarity[0][0]:.4f}")
 
-# Define a function to find the most similar term
-def find_most_similar(term, term_list):
-    # Tokenize and encode the terms
-    inputs = tokenizer([term] + term_list, return_tensors="pt", padding=True, truncation=True)
+# Set up LLM api
+# claude = claude_lib.setup_claude_client('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')
 
-    with torch.no_grad():
-        term_embeddings = model(**inputs, return_dict=True).last_hidden_state[:, 0, :].detach()
+# Run LLM prompt to get back concept sets
+# response = claude_lib.send_message(
+#             claude,
+#             "",
+#             model="claude-3-opus-20240229",
+#             max_tokens=1000
+#         )
 
-    # Calculate cosine similarity with detached tensors
-    term_similarities = cosine_similarity(term_embeddings[0].unsqueeze(0).numpy(), term_embeddings[1:].numpy())
-    
-    most_similar_idx = term_similarities.argmax()
-    most_similar_term = term_list[most_similar_idx]
-    
-    return most_similar_term, term_similarities[0][most_similar_idx].item()
+# Process results
+with open('ConceptSets_EdgeCases/dialysis-terms-json.json', 'r', encoding='utf-8') as file:
+    llm_output = json.load(file)
 
-# Test with a target term
-target_term = "hypertension"
-term_list = ["high blood pressure", "diabetes", "asthma"]
+# Run coder on returned LLM concept list compared to concept output or input term
 
-most_similar_term, similarity_score = find_most_similar(target_term, term_list)
-print(f"Most similar term to '{target_term}': {most_similar_term} (Similarity: {similarity_score:.4f})")
+# PROCEDURES
+sim_procedures = coder.find_similarities('dialysis for chronic kidney disease', llm_output['procedures'])
+utils.write_tuples_to_csv("dialysis_for_chronic_kidney_disease_procedures_output.csv", sim_procedures)
+
+# TESTS
+sim_tests = coder.find_similarities('dialysis for chronic kidney disease', llm_output['dialysis_specific_tests'])
+utils.write_tuples_to_csv("dialysis_for_chronic_kidney_disease_tests_output.csv", sim_tests)
+
+# MEDICATIONS
+meds = llm_output['medications']
+med_list = []
+for elem in meds:
+    concept = elem['name'] + ' ' + elem['dosage']
+    med_list.append(concept)
+sim_meds = coder.find_similarities('dialysis for chronic kidney disease', med_list)
+utils.write_tuples_to_csv("dialysis_for_chronic_kidney_disease_med_dosage_output.csv", sim_meds)
+
+med_list_names = []
+for elem in meds:
+    concept = elem['name']
+    med_list_names.append(concept)
+sim_meds_names = coder.find_similarities('dialysis for chronic kidney disease', med_list_names)
+utils.write_tuples_to_csv("dialysis_for_chronic_kidney_disease_med_output.csv", sim_meds_names)
+
+# Check whether any of these concepts are in the PHOEBE output
+
+# Append to CODER concept list
+# for i, elem in sim:
+#     if elem > 0.5:
+#         coder_concept_list.append(llm_output['procedures'][i])
+
+
+# Remove duplicate concepts from concept list
+# coder_concept_set = set(coder_concept_list)
+
+# Run coder on input term and concept list
+
+
+# Evaluate results
 
 

@@ -10,3 +10,5 @@ last_model.pth
 
 CODER/coderpp/train/__pycache__/
 CODER/pretrain/__pycache__/
+__pycache__
+secrets.py

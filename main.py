@@ -25,7 +25,7 @@ coder_concept_list = eskd_phoebe_concepts
 
 
 # Set up LLM api
-# claude = claude_lib.setup_claude_client('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')
+# claude = claude_lib.setup_claude_client('')
 
 # Run LLM prompt to get back concept sets
 # response = claude_lib.send_message(

@@ -1,0 +1,233 @@
+{
+  "procedures": [
+    "joint aspiration",
+    "therapeutic joint injection",
+    "synovial biopsy",
+    "total joint arthroplasty",
+    "arthroscopic synovectomy",
+    "tendon repair",
+    "carpal tunnel release",
+    "cervical spine fusion",
+    "metacarpophalangeal joint replacement",
+    "proximal interphalangeal joint arthroplasty",
+    "wrist fusion",
+    "ankle arthrodesis",
+    "joint mobilization",
+    "trigger finger release",
+    "boutonniere deformity correction",
+    "swan neck deformity repair",
+    "ulnar deviation correction",
+    "flexor tenosynovectomy"
+  ],
+  "diagnostic_tests": [
+    "rheumatoid factor",
+    "anti cyclic citrullinated peptide antibody",
+    "c reactive protein",
+    "erythrocyte sedimentation rate",
+    "complete blood count",
+    "comprehensive metabolic panel",
+    "antinuclear antibody test",
+    "complement levels",
+    "serum immunoglobulins",
+    "hepatitis b surface antigen",
+    "hepatitis b core antibody",
+    "hepatitis c antibody",
+    "tuberculosis quantiferon gold",
+    "chest radiograph",
+    "hand radiographs",
+    "feet radiographs",
+    "cervical spine radiographs",
+    "magnetic resonance imaging joints",
+    "ultrasound synovitis assessment",
+    "dual energy xray absorptiometry",
+    "pulmonary function tests",
+    "electrocardiogram",
+    "joint fluid crystal analysis",
+    "joint fluid culture",
+    "synovial fluid cell count"
+  ],
+  "medications": [
+    {
+      "name": "methotrexate",
+      "dosage": "7.5-25mg weekly"
+    },
+    {
+      "name": "leflunomide",
+      "dosage": "10-20mg daily"
+    },
+    {
+      "name": "sulfasalazine",
+      "dosage": "2000-3000mg daily"
+    },
+    {
+      "name": "hydroxychloroquine",
+      "dosage": "200-400mg daily"
+    },
+    {
+      "name": "adalimumab",
+      "dosage": "40mg every 2 weeks"
+    },
+    {
+      "name": "etanercept",
+      "dosage": "50mg weekly"
+    },
+    {
+      "name": "infliximab",
+      "dosage": "3-10mg/kg every 4-8 weeks"
+    },
+    {
+      "name": "tocilizumab",
+      "dosage": "162mg weekly subcutaneous"
+    },
+    {
+      "name": "abatacept",
+      "dosage": "125mg weekly subcutaneous"
+    },
+    {
+      "name": "rituximab",
+      "dosage": "1000mg day 1 and 15"
+    },
+    {
+      "name": "baricitinib",
+      "dosage": "2-4mg daily"
+    },
+    {
+      "name": "tofacitinib",
+      "dosage": "5mg twice daily"
+    },
+    {
+      "name": "upadacitinib",
+      "dosage": "15mg daily"
+    },
+    {
+      "name": "prednisone",
+      "dosage": "5-60mg daily"
+    },
+    {
+      "name": "methylprednisolone",
+      "dosage": "4-48mg daily"
+    },
+    {
+      "name": "folic acid",
+      "dosage": "1mg daily"
+    }
+  ],
+  "comorbidities": [
+    "cardiovascular disease",
+    "osteoporosis",
+    "interstitial lung disease",
+    "pulmonary nodules",
+    "pleural effusion",
+    "felty syndrome",
+    "secondary sjogren syndrome",
+    "carpal tunnel syndrome",
+    "cervical spine subluxation",
+    "cricoarytenoid arthritis",
+    "scleritis",
+    "peripheral neuropathy",
+    "rheumatoid nodules",
+    "vasculitis",
+    "lymphoma",
+    "depression",
+    "fibromyalgia",
+    "osteoarthritis",
+    "periodontal disease",
+    "chronic kidney disease"
+  ],
+  "progress_note_keywords": [
+    "disease activity score 28",
+    "clinical disease activity index",
+    "simplified disease activity index",
+    "morning stiffness duration",
+    "tender joint count",
+    "swollen joint count",
+    "patient global assessment",
+    "physician global assessment",
+    "functional assessment questionnaire",
+    "radiographic progression",
+    "grip strength measurement",
+    "joint space narrowing",
+    "bone erosions",
+    "synovial thickening",
+    "joint effusion",
+    "range of motion",
+    "muscle strength",
+    "deformity assessment",
+    "nodule count",
+    "extraarticular manifestations",
+    "treatment response",
+    "medication adherence",
+    "adverse events",
+    "functional status",
+    "work disability",
+    "quality of life assessment"
+  ],
+  "disease_activity_parameters": [
+    {
+      "parameter": "tender joint count",
+      "range": "0-28"
+    },
+    {
+      "parameter": "swollen joint count",
+      "range": "0-28"
+    },
+    {
+      "parameter": "patient global score",
+      "range": "0-100"
+    },
+    {
+      "parameter": "physician global score",
+      "range": "0-100"
+    },
+    {
+      "parameter": "c reactive protein",
+      "range": "0-3.0 mg/dL"
+    },
+    {
+      "parameter": "erythrocyte sedimentation rate",
+      "range": "0-100 mm/hr"
+    },
+    {
+      "parameter": "disease activity score 28",
+      "range": "0-9.4"
+    },
+    {
+      "parameter": "morning stiffness",
+      "range": "0-24 hours"
+    }
+  ],
+  "monitoring_requirements": [
+    {
+      "test": "complete blood count",
+      "frequency": "every 4-12 weeks"
+    },
+    {
+      "test": "liver function tests",
+      "frequency": "every 4-12 weeks"
+    },
+    {
+      "test": "lipid panel",
+      "frequency": "every 6-12 months"
+    },
+    {
+      "test": "tuberculosis screening",
+      "frequency": "annually"
+    },
+    {
+      "test": "bone density scan",
+      "frequency": "every 2 years"
+    },
+    {
+      "test": "ophthalmologic examination",
+      "frequency": "annually if on hydroxychloroquine"
+    },
+    {
+      "test": "chest radiograph",
+      "frequency": "every 1-2 years"
+    },
+    {
+      "test": "cardiovascular risk assessment",
+      "frequency": "annually"
+    }
+  ]
+}

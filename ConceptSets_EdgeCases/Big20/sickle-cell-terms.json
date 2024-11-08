@@ -1,0 +1,217 @@
+{
+  "procedures": [
+    "red blood cell exchange transfusion",
+    "simple transfusion",
+    "bone marrow aspiration",
+    "bone marrow biopsy",
+    "transcranial doppler ultrasonography",
+    "port placement",
+    "cholecystectomy",
+    "splenectomy",
+    "hip core decompression",
+    "total hip arthroplasty",
+    "respiratory support intervention",
+    "automated exchange transfusion",
+    "central line placement",
+    "peripheral blood stem cell collection",
+    "allogeneic stem cell transplantation",
+    "liver biopsy",
+    "cardiac catheterization",
+    "vitrectomy"
+  ],
+  "diagnostic_tests": [
+    "hemoglobin electrophoresis",
+    "complete blood count with differential",
+    "hemoglobin fractionation",
+    "reticulocyte count",
+    "serum ferritin",
+    "serum iron",
+    "total iron binding capacity",
+    "liver function tests",
+    "renal function panel",
+    "urinalysis",
+    "blood type and crossmatch",
+    "genetic testing for hemoglobin mutations",
+    "oxygen saturation monitoring",
+    "pulmonary function testing",
+    "brain magnetic resonance imaging",
+    "brain magnetic resonance angiography",
+    "echocardiogram",
+    "electrocardiogram",
+    "chest radiograph",
+    "bone survey",
+    "abdominal ultrasound",
+    "thyroid function tests",
+    "hemolysis panel",
+    "viral serologies",
+    "blood cultures"
+  ],
+  "medications": [
+    {
+      "name": "hydroxyurea",
+      "dosage": "15-35 mg/kg/day"
+    },
+    {
+      "name": "voxelotor",
+      "dosage": "1500 mg daily"
+    },
+    {
+      "name": "crizanlizumab",
+      "dosage": "5 mg/kg monthly"
+    },
+    {
+      "name": "l-glutamine",
+      "dosage": "0.3 g/kg twice daily"
+    },
+    {
+      "name": "folic acid",
+      "dosage": "1 mg daily"
+    },
+    {
+      "name": "morphine sulfate",
+      "dosage": "0.1-0.15 mg/kg every 2-4 hours"
+    },
+    {
+      "name": "hydromorphone",
+      "dosage": "0.015-0.02 mg/kg every 3-4 hours"
+    },
+    {
+      "name": "penicillin v potassium",
+      "dosage": "125-250 mg twice daily"
+    },
+    {
+      "name": "deferasirox",
+      "dosage": "20-40 mg/kg/day"
+    },
+    {
+      "name": "vitamin d3",
+      "dosage": "800-2000 IU daily"
+    }
+  ],
+  "comorbidities": [
+    "acute chest syndrome",
+    "avascular necrosis",
+    "stroke",
+    "silent cerebral infarction",
+    "pulmonary hypertension",
+    "chronic kidney disease",
+    "retinopathy",
+    "cholelithiasis",
+    "iron overload",
+    "delayed growth and development",
+    "priapism",
+    "leg ulcers",
+    "cognitive impairment",
+    "depression",
+    "anxiety",
+    "chronic pain syndrome",
+    "osteomyelitis",
+    "aplastic crisis",
+    "splenic sequestration",
+    "hepatic sequestration"
+  ],
+  "progress_note_keywords": [
+    "pain crisis location",
+    "pain severity score",
+    "hemolysis markers",
+    "oxygen saturation",
+    "hydration status",
+    "transfusion history",
+    "crisis frequency",
+    "baseline hemoglobin",
+    "reticulocyte response",
+    "medication compliance",
+    "growth parameters",
+    "developmental milestones",
+    "school attendance",
+    "work attendance",
+    "vaccination status",
+    "transition readiness",
+    "self management skills",
+    "family support assessment",
+    "emergency department visits",
+    "hospitalizations"
+  ],
+  "laboratory_parameters": [
+    {
+      "parameter": "hemoglobin",
+      "range": "6-10 g/dL"
+    },
+    {
+      "parameter": "reticulocyte count",
+      "range": "5-15 percent"
+    },
+    {
+      "parameter": "white blood cell count",
+      "range": "4-15 K/uL"
+    },
+    {
+      "parameter": "platelet count",
+      "range": "150-450 K/uL"
+    },
+    {
+      "parameter": "hemoglobin s percentage",
+      "range": "30-50 percent on exchange"
+    },
+    {
+      "parameter": "ferritin",
+      "range": "1000-4000 ng/mL"
+    }
+  ],
+  "monitoring_requirements": [
+    {
+      "test": "complete blood count",
+      "frequency": "every 2-4 weeks"
+    },
+    {
+      "test": "reticulocyte count",
+      "frequency": "every 2-4 weeks"
+    },
+    {
+      "test": "chemistry panel",
+      "frequency": "every 3 months"
+    },
+    {
+      "test": "ferritin level",
+      "frequency": "every 3 months"
+    },
+    {
+      "test": "transcranial doppler",
+      "frequency": "annually"
+    },
+    {
+      "test": "echocardiogram",
+      "frequency": "every 1-3 years"
+    },
+    {
+      "test": "ophthalmology examination",
+      "frequency": "annually"
+    },
+    {
+      "test": "pulmonary function tests",
+      "frequency": "annually"
+    }
+  ],
+  "crisis_assessment": [
+    {
+      "parameter": "pain score",
+      "range": "0-10"
+    },
+    {
+      "parameter": "temperature",
+      "range": "36.5-38.5°C"
+    },
+    {
+      "parameter": "respiratory rate",
+      "range": "12-20/min"
+    },
+    {
+      "parameter": "oxygen saturation",
+      "range": "95-100 percent"
+    },
+    {
+      "parameter": "blood pressure",
+      "range": "90/60-140/90 mmHg"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "procedures": [
+    "phacoemulsification with intraocular lens implantation",
+    "extracapsular cataract extraction",
+    "intracapsular cataract extraction",
+    "laser capsulotomy",
+    "anterior vitrectomy",
+    "intraocular lens exchange",
+    "intraocular lens repositioning",
+    "secondary intraocular lens implantation",
+    "combined cataract and glaucoma surgery",
+    "limbal relaxing incisions during cataract surgery",
+    "toric lens implantation",
+    "multifocal lens implantation",
+    "extended depth of focus lens implantation"
+  ],
+  "diagnostic_tests": [
+    "visual acuity measurement",
+    "contrast sensitivity testing",
+    "glare testing",
+    "potential acuity meter testing",
+    "slit lamp examination",
+    "dilated fundus examination",
+    "corneal topography",
+    "corneal pachymetry",
+    "optical coherence tomography of macula",
+    "optical biometry",
+    "endothelial cell count",
+    "lens opacity grading",
+    "refraction under cycloplegia",
+    "wavefront analysis",
+    "color vision testing",
+    "macular function testing",
+    "pupillary examination",
+    "confrontational visual fields",
+    "keratometry readings",
+    "ultrasound biomicroscopy"
+  ],
+  "comorbidities": [
+    "diabetes mellitus",
+    "hypertension",
+    "glaucoma",
+    "pseudoexfoliation syndrome",
+    "retinal detachment",
+    "age related macular degeneration",
+    "diabetic retinopathy",
+    "corneal endothelial dystrophy",
+    "uveitis",
+    "zonular weakness",
+    "high myopia",
+    "retinitis pigmentosa",
+    "previous eye trauma",
+    "previous eye surgery",
+    "chronic steroid use"
+  ],
+  "medications": [
+    {
+      "name": "phenylephrine",
+      "usage": "dilating drops preoperative"
+    },
+    {
+      "name": "tropicamide",
+      "usage": "dilating drops preoperative"
+    },
+    {
+      "name": "cyclopentolate",
+      "usage": "dilating drops preoperative"
+    },
+    {
+      "name": "moxifloxacin",
+      "usage": "antibiotic prophylaxis"
+    },
+    {
+      "name": "prednisolone acetate",
+      "usage": "postoperative inflammation"
+    },
+    {
+      "name": "ketorolac",
+      "usage": "postoperative inflammation"
+    },
+    {
+      "name": "bromfenac",
+      "usage": "postoperative inflammation"
+    },
+    {
+      "name": "pilocarpine",
+      "usage": "intraoperative miosis"
+    },
+    {
+      "name": "acetylcholine",
+      "usage": "intraoperative miosis"
+    },
+    {
+      "name": "intracameral moxifloxacin",
+      "usage": "intraoperative prophylaxis"
+    }
+  ],
+  "progress_note_keywords": [
+    "best corrected visual acuity",
+    "lens opacity classification",
+    "nuclear sclerosis",
+    "cortical opacity",
+    "posterior subcapsular opacity",
+    "anterior capsular opacity",
+    "posterior capsular opacity",
+    "zonular status",
+    "pupillary dilation",
+    "red reflex",
+    "posterior pole visualization",
+    "intraocular pressure",
+    "corneal clarity",
+    "anterior chamber depth",
+    "iris appearance",
+    "lens position",
+    "capsular support",
+    "posterior capsule status",
+    "postoperative inflammation",
+    "wound closure",
+    "corneal edema",
+    "anterior chamber reaction",
+    "intraocular lens position",
+    "capsular fibrosis",
+    "posterior capsule opacification",
+    "macular status",
+    "optical axis clarity"
+  ],
+  "symptoms": [
+    "gradual vision decline",
+    "glare sensitivity",
+    "difficulty reading",
+    "poor night vision",
+    "color vision changes",
+    "monocular diplopia",
+    "second sight phenomenon",
+    "depth perception problems",
+    "decreased contrast sensitivity",
+    "need for frequent prescription changes",
+    "difficulty with bright lights",
+    "vision fluctuation",
+    "ghost images",
+    "haloes around lights",
+    "reduced facial recognition"
+  ],
+  "surgical_parameters": [
+    {
+      "parameter": "phaco time",
+      "range": "1-4 minutes"
+    },
+    {
+      "parameter": "phaco power",
+      "range": "15-40 percent"
+    },
+    {
+      "parameter": "incision size",
+      "range": "2.2-2.8 mm"
+    },
+    {
+      "parameter": "capsulorrhexis size",
+      "range": "5.0-5.5 mm"
+    },
+    {
+      "parameter": "hydrodissection fluid volume",
+      "range": "0.5-1.0 ml"
+    },
+    {
+      "parameter": "irrigation bottle height",
+      "range": "90-110 cm"
+    },
+    {
+      "parameter": "vacuum setting",
+      "range": "300-500 mmHg"
+    },
+    {
+      "parameter": "aspiration flow rate",
+      "range": "25-45 cc/min"
+    }
+  ]
+}

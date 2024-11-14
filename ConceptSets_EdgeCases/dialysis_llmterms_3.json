@@ -1,0 +1,224 @@
+{
+  "diagnoses": [
+    {
+      "name": "End stage renal disease",
+      "concept_id": "C0022661",
+      "vocabulary": "SNOMED CT",
+      "code": "46177005"
+    },
+    {
+      "name": "Chronic kidney disease stage 5",
+      "concept_id": "C1561643",
+      "vocabulary": "ICD-10-CM",
+      "code": "N18.5"
+    },
+    {
+      "name": "Anemia of chronic kidney disease",
+      "concept_id": "C1561899",
+      "vocabulary": "ICD-10-CM",
+      "code": "D63.1"
+    },
+    {
+      "name": "Secondary hyperparathyroidism",
+      "concept_id": "C0151436",
+      "vocabulary": "ICD-10-CM",
+      "code": "N25.81"
+    },
+    {
+      "name": "Renal osteodystrophy",
+      "concept_id": "C0022658",
+      "vocabulary": "ICD-10-CM",
+      "code": "N25.0"
+    },
+    {
+      "name": "Hyperkalemia",
+      "concept_id": "C0020461",
+      "vocabulary": "ICD-10-CM",
+      "code": "E87.5"
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Hemodialysis",
+      "concept_id": "C0019004",
+      "vocabulary": "SNOMED CT",
+      "code": "302497006"
+    },
+    {
+      "name": "Peritoneal dialysis",
+      "concept_id": "C0031139",
+      "vocabulary": "SNOMED CT",
+      "code": "71192002"
+    },
+    {
+      "name": "Arteriovenous fistula creation",
+      "concept_id": "C0191088",
+      "vocabulary": "ICD-10-PCS",
+      "code": "031209D"
+    },
+    {
+      "name": "Tunneled dialysis catheter placement",
+      "concept_id": "C1533601",
+      "vocabulary": "SNOMED CT",
+      "code": "427018006"
+    },
+    {
+      "name": "Peritoneal dialysis catheter insertion",
+      "concept_id": "C0189681",
+      "vocabulary": "ICD-10-PCS",
+      "code": "0W1G30Z"
+    }
+  ],
+  "laboratory_tests": [
+    {
+      "name": "Serum creatinine measurement",
+      "concept_id": "C0201975",
+      "vocabulary": "LOINC",
+      "code": "2160-0"
+    },
+    {
+      "name": "Glomerular filtration rate",
+      "concept_id": "C0017654",
+      "vocabulary": "LOINC",
+      "code": "33914-3"
+    },
+    {
+      "name": "Parathyroid hormone measurement",
+      "concept_id": "C0030164",
+      "vocabulary": "LOINC",
+      "code": "2731-8"
+    },
+    {
+      "name": "Blood urea nitrogen measurement",
+      "concept_id": "C0005845",
+      "vocabulary": "LOINC",
+      "code": "3094-0"
+    },
+    {
+      "name": "Kt/V measurement",
+      "concept_id": "C1553490",
+      "vocabulary": "LOINC",
+      "code": "35925-7"
+    },
+    {
+      "name": "Hemoglobin measurement",
+      "concept_id": "C0019046",
+      "vocabulary": "LOINC",
+      "code": "718-7"
+    },
+    {
+      "name": "Ferritin measurement",
+      "concept_id": "C0519105",
+      "vocabulary": "LOINC",
+      "code": "2276-4"
+    },
+    {
+      "name": "Transferrin saturation measurement",
+      "concept_id": "C0802012",
+      "vocabulary": "LOINC",
+      "code": "2500-7"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Erythropoietin administration",
+      "concept_id": "C0337435",
+      "vocabulary": "RxNorm",
+      "code": "3086"
+    },
+    {
+      "name": "Sevelamer administration",
+      "concept_id": "C0246637",
+      "vocabulary": "RxNorm",
+      "code": "58840"
+    },
+    {
+      "name": "Cinacalcet administration",
+      "concept_id": "C1170326",
+      "vocabulary": "RxNorm",
+      "code": "352343"
+    },
+    {
+      "name": "Darbepoetin alfa",
+      "concept_id": "C1174550",
+      "vocabulary": "RxNorm",
+      "code": "325646"
+    },
+    {
+      "name": "Iron sucrose",
+      "concept_id": "C0878656",
+      "vocabulary": "RxNorm",
+      "code": "73355"
+    },
+    {
+      "name": "Calcitriol",
+      "concept_id": "C0006675",
+      "vocabulary": "RxNorm",
+      "code": "2191"
+    }
+  ],
+  "complications": [
+    {
+      "name": "Arteriovenous access thrombosis",
+      "concept_id": "C1399611",
+      "vocabulary": "ICD-10-CM",
+      "code": "T82.868A"
+    },
+    {
+      "name": "Dialysis catheter site infection",
+      "concept_id": "C1145670",
+      "vocabulary": "ICD-10-CM",
+      "code": "T80.219A"
+    },
+    {
+      "name": "Peritonitis due to peritoneal dialysis",
+      "concept_id": "C0742736",
+      "vocabulary": "ICD-10-CM",
+      "code": "K65.8"
+    },
+    {
+      "name": "Intradialytic hypotension",
+      "concept_id": "C1562065",
+      "vocabulary": "SNOMED CT",
+      "code": "238632009"
+    },
+    {
+      "name": "Dialysis-induced hypoxemia",
+      "concept_id": "C1563820",
+      "vocabulary": "SNOMED CT",
+      "code": "233592005"
+    }
+  ],
+  "monitoring_parameters": [
+    {
+      "name": "Central venous pressure monitoring",
+      "concept_id": "C0428642",
+      "vocabulary": "SNOMED CT",
+      "code": "252076005"
+    },
+    {
+      "name": "Dialysis adequacy monitoring",
+      "concept_id": "C1561576",
+      "vocabulary": "SNOMED CT",
+      "code": "445932008"
+    },
+    {
+      "name": "Dry weight assessment",
+      "concept_id": "C1562456",
+      "vocabulary": "SNOMED CT",
+      "code": "445939004"
+    },
+    {
+      "name": "Vascular access flow monitoring",
+      "concept_id": "C1562789",
+      "vocabulary": "SNOMED CT",
+      "code": "426947008"
+    },
+    {
+      "name": "Blood pressure monitoring during dialysis",
+      "concept_id": "C1562987",
+      "vocabulary": "SNOMED CT",
+      "code": "445938007"
+    }
+  ]
+}

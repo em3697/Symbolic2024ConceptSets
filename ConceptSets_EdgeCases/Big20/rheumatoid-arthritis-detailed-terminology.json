@@ -1,0 +1,267 @@
+{
+    "procedures": [
+        {
+            "term": "Joint replacement arthroplasty",
+            "conceptID": "C0003893",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Synovectomy",
+            "conceptID": "C0039034",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Tendon repair",
+            "conceptID": "C0039164",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Joint fusion",
+            "conceptID": "C0185529",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Arthroscopic surgery",
+            "conceptID": "C0003904",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Orthopedic surgical procedure",
+            "conceptID": "C0033520",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Surgical drainage of joint",
+            "conceptID": "C0185578",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Reconstructive surgical procedure",
+            "conceptID": "C0524876",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Soft tissue reconstruction",
+            "conceptID": "C0457457",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Arthroplasty of hand",
+            "conceptID": "C0186247",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Wrist joint replacement",
+            "conceptID": "C0188530",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Removal of joint prosthesis",
+            "conceptID": "C0185565",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "tests": [
+        {
+            "term": "Rheumatoid factor test",
+            "conceptID": "C0035378",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Anti-cyclic citrullinated peptide antibody test",
+            "conceptID": "C1318849",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Erythrocyte sedimentation rate",
+            "conceptID": "C0428330",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "C-reactive protein test",
+            "conceptID": "C0201657",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Complete blood count",
+            "conceptID": "C0428586",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Antinuclear antibody test",
+            "conceptID": "C0003416",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Joint radiography",
+            "conceptID": "C0525363",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Magnetic resonance imaging of joints",
+            "conceptID": "C0025362",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Ultrasound of joint",
+            "conceptID": "C0041618",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Bone density scan",
+            "conceptID": "C0586521",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Synovial fluid analysis",
+            "conceptID": "C0039262",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Inflammatory marker testing",
+            "conceptID": "C0427520",
+            "vocabulary": "LOINC"
+        }
+    ],
+    "medications": [
+        {
+            "term": "Methotrexate",
+            "conceptID": "C0025677",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Prednisone",
+            "conceptID": "C0032952",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hydroxychloroquine",
+            "conceptID": "C0020336",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Sulfasalazine",
+            "conceptID": "C0038454",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Leflunomide",
+            "conceptID": "C0376689",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Adalimumab",
+            "conceptID": "C1122870",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Etanercept",
+            "conceptID": "C0939127",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Rituximab",
+            "conceptID": "C0920892",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Tocilizumab",
+            "conceptID": "C1565782",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Infliximab",
+            "conceptID": "C0666743",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Abatacept",
+            "conceptID": "C1322791",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Naproxen",
+            "conceptID": "C0040048",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "diagnosticCodes": [
+        {
+            "term": "Rheumatoid arthritis",
+            "conceptID": "C0003873",
+            "vocabulary": "ICD10"
+        },
+        {
+            "term": "Rheumatoid arthritis with organs and systems involvement",
+            "conceptID": "C0036973",
+            "vocabulary": "ICD10"
+        },
+        {
+            "term": "Juvenile rheumatoid arthritis",
+            "conceptID": "C0409959",
+            "vocabulary": "ICD10"
+        }
+    ],
+    "symptoms": [
+        {
+            "term": "Joint swelling",
+            "conceptID": "C0332285",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Joint pain",
+            "conceptID": "C0422870",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Morning stiffness",
+            "conceptID": "C0240044",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Joint deformity",
+            "conceptID": "C0262582",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Synovitis",
+            "conceptID": "C0039103",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Fatigue",
+            "conceptID": "C0015672",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Muscle weakness",
+            "conceptID": "C0151786",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Joint tenderness",
+            "conceptID": "C0262534",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Joint stiffness",
+            "conceptID": "C0162823",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Symmetric polyarthritis",
+            "conceptID": "C0039103",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Rheumatoid nodules",
+            "conceptID": "C0035711",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Systemic inflammation",
+            "conceptID": "C0021368",
+            "vocabulary": "SNOMED"
+        }
+    ]
+}

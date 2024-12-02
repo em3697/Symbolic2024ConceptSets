@@ -1,0 +1,9 @@
+_____
+Final Claude.AI LLM prompt.
+Enter desired target input {}
+_____
+
+As a clinical trial coordinator, I need to gather all clinically relevant procedures, tests, medications, and associated symptoms related to the term "{}".
+Please provide a comprehensive list of UMLS terms that I should look for in patient charts that may indicate the diagnosis related to this term, ensuring a high level of detail and specificity in the response. Please include terms from CPT4, ICD10, ICD9Proc, SNOMED, and LOINC.
+Please include the procedures, specific tests and medications. Focus on the core medical terminology without descriptive modifiers like 'training', 'placement', or 'insertion'.  With each term return the full string, concept ID, and the specific vocabulary it comes from. The more specific ones are better. Please organize in a comma separated list no need to maintain headers.
+Remove white space and all cpt codes and abbreviations in parentheses from output and return it in json format. Make sure each item returned by the json has the same format. Return the json formatted as a dictionary of key value pairs where the top level key is the category (“procedures”, “tests”, “medications”, etc.) and within the value is a list of dictionaries where each dictionary is a concept from the top level key category. Include at least 10 in each section.

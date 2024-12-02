@@ -1,0 +1,267 @@
+{
+    "procedures": [
+        {
+            "term": "Bone marrow transplantation",
+            "conceptID": "C0005961",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Stem cell transplantation",
+            "conceptID": "C0037961",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Exchange transfusion",
+            "conceptID": "C0040732",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Chronic transfusion therapy",
+            "conceptID": "C0333283",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Prophylactic blood transfusion",
+            "conceptID": "C0853818",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Therapeutic phlebotomy",
+            "conceptID": "C0185316",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Erythrocytapheresis",
+            "conceptID": "C0039475",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Splenectomy",
+            "conceptID": "C0037895",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hydroxyurea therapy",
+            "conceptID": "C0868926",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hematopoietic stem cell transplant",
+            "conceptID": "C0683582",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Partial exchange transfusion",
+            "conceptID": "C0199174",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Surgical decompression",
+            "conceptID": "C0189633",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "tests": [
+        {
+            "term": "Hemoglobin electrophoresis",
+            "conceptID": "C0455272",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Complete blood count",
+            "conceptID": "C0428586",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Sickle cell test",
+            "conceptID": "C0036301",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hemoglobin S quantitation",
+            "conceptID": "C1274008",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Reticulocyte count",
+            "conceptID": "C0434275",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Peripheral blood smear",
+            "conceptID": "C0444091",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Hemoglobin level test",
+            "conceptID": "C0518015",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Ferritin level test",
+            "conceptID": "C0849736",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Liver function test",
+            "conceptID": "C0023899",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Kidney function test",
+            "conceptID": "C0022662",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Hemoglobin F measurement",
+            "conceptID": "C0439603",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Genetic testing for hemoglobin variants",
+            "conceptID": "C1512018",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "medications": [
+        {
+            "term": "Hydroxyurea",
+            "conceptID": "C0020782",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Folic acid",
+            "conceptID": "C0016411",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Penicillin prophylaxis",
+            "conceptID": "C0993467",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Pain management medications",
+            "conceptID": "C0002766",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Opioid analgesics",
+            "conceptID": "C0002940",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "L-glutamine oral powder",
+            "conceptID": "C3251447",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hydroxyurea oral capsule",
+            "conceptID": "C1145633",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Crizanlizumab",
+            "conceptID": "C4532026",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Voxelotor",
+            "conceptID": "C4532023",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Antibiotics",
+            "conceptID": "C0003232",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Iron chelation therapy",
+            "conceptID": "C0920637",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Morphine sulfate",
+            "conceptID": "C0026708",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "diagnosticCodes": [
+        {
+            "term": "Sickle cell disease",
+            "conceptID": "C0232419",
+            "vocabulary": "ICD10"
+        },
+        {
+            "term": "Sickle cell anemia",
+            "conceptID": "C0002895",
+            "vocabulary": "ICD9"
+        },
+        {
+            "term": "Hemoglobin SS disease",
+            "conceptID": "C0919275",
+            "vocabulary": "ICD10"
+        }
+    ],
+    "symptoms": [
+        {
+            "term": "Acute chest syndrome",
+            "conceptID": "C0085786",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Vaso-occlusive crisis",
+            "conceptID": "C0857460",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Anemia",
+            "conceptID": "C0002871",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Bone pain",
+            "conceptID": "C0233558",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Splenic sequestration",
+            "conceptID": "C0398805",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Pulmonary hypertension",
+            "conceptID": "C0020542",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Stroke",
+            "conceptID": "C0038454",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Avascular necrosis",
+            "conceptID": "C0003846",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hand-foot syndrome",
+            "conceptID": "C0018552",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Jaundice",
+            "conceptID": "C0022346",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Priapism",
+            "conceptID": "C0033117",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Organ damage",
+            "conceptID": "C0178546",
+            "vocabulary": "SNOMED"
+        }
+    ]
+}

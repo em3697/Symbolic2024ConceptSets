@@ -1,0 +1,210 @@
+{
+    "procedures": [
+        {
+            "term": "Extracapsular cataract extraction",
+            "conceptId": "C0196939",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Phacoemulsification",
+            "conceptId": "C0086169",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Intracapsular cataract extraction",
+            "conceptId": "C0192398",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Laser cataract surgery",
+            "conceptId": "C3495355",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Cataract surgery with intraocular lens insertion",
+            "conceptId": "C0011321",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Cataract removal",
+            "conceptId": "C0023017",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Lens replacement",
+            "conceptId": "C0201735",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Anterior capsulotomy",
+            "conceptId": "C0194279",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Posterior capsulotomy",
+            "conceptId": "C0194280",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Corneal incision for cataract surgery",
+            "conceptId": "C0203416",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "tests": [
+        {
+            "term": "Visual acuity test",
+            "conceptId": "C0042834",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Slit lamp examination of eye",
+            "conceptId": "C0204031",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Fundus photography",
+            "conceptId": "C0016884",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Optical coherence tomography of eye",
+            "conceptId": "C0920367",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Lens opacity classification system",
+            "conceptId": "C1283034",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Refraction test",
+            "conceptId": "C0035300",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Contrast sensitivity test",
+            "conceptId": "C0428542",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Intraocular pressure measurement",
+            "conceptId": "C0032074",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Ophthalmologic ultrasound",
+            "conceptId": "C0041618",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Visual field test",
+            "conceptId": "C0042567",
+            "vocabulary": "LOINC"
+        }
+    ],
+    "medications": [
+        {
+            "term": "Tropicamide",
+            "conceptId": "C0041077",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Cyclopentolate",
+            "conceptId": "C0010220",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Phenylephrine",
+            "conceptId": "C0031469",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Ketorolac",
+            "conceptId": "C0022568",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Prednisolone",
+            "conceptId": "C0032319",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Moxifloxacin",
+            "conceptId": "C0254794",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Olopatadine",
+            "conceptId": "C0361692",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Dexamethasone",
+            "conceptId": "C0011777",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Brimonidine",
+            "conceptId": "C0255404",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Timolol",
+            "conceptId": "C0040375",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "symptoms": [
+        {
+            "term": "Blurred vision",
+            "conceptId": "C0234621",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Reduced visual acuity",
+            "conceptId": "C0151785",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Lens opacity",
+            "conceptId": "C0023347",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Glare sensitivity",
+            "conceptId": "C0426574",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Impaired night vision",
+            "conceptId": "C0151824",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Double vision",
+            "conceptId": "C0012569",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Color vision defect",
+            "conceptId": "C0009422",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Decreased contrast sensitivity",
+            "conceptId": "C0235396",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Progressive vision loss",
+            "conceptId": "C0426944",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Clouded lens",
+            "conceptId": "C0022362",
+            "vocabulary": "SNOMED"
+        }
+    ]
+}

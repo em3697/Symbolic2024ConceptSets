@@ -1,0 +1,267 @@
+{
+    "procedures": [
+        {
+            "term": "Insulin pump therapy",
+            "conceptID": "C0581634",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Continuous glucose monitoring",
+            "conceptID": "C3697687",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Insulin injection",
+            "conceptID": "C0021601",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Pancreas transplantation",
+            "conceptID": "C0030532",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Islet cell transplantation",
+            "conceptID": "C0221147",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Diabetic foot care",
+            "conceptID": "C0455393",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Diabetes education",
+            "conceptID": "C0150666",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Insulin dose adjustment",
+            "conceptID": "C0185320",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Carbohydrate counting",
+            "conceptID": "C1303116",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Blood glucose self-monitoring",
+            "conceptID": "C0455385",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Diabetes management consultation",
+            "conceptID": "C0586560",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Nutritional counseling",
+            "conceptID": "C0460633",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "tests": [
+        {
+            "term": "Glycated hemoglobin test",
+            "conceptID": "C0359610",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Fasting plasma glucose test",
+            "conceptID": "C0428572",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Random plasma glucose test",
+            "conceptID": "C0428100",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Oral glucose tolerance test",
+            "conceptID": "C0392378",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Insulin antibody test",
+            "conceptID": "C0428261",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Glutamic acid decarboxylase antibody test",
+            "conceptID": "C1334289",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Complete metabolic panel",
+            "conceptID": "C0427353",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Ketone blood test",
+            "conceptID": "C0455424",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Microalbuminuria test",
+            "conceptID": "C0202614",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Comprehensive metabolic panel",
+            "conceptID": "C0428452",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "C-peptide test",
+            "conceptID": "C0202054",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Lipid panel",
+            "conceptID": "C0428462",
+            "vocabulary": "LOINC"
+        }
+    ],
+    "medications": [
+        {
+            "term": "Rapid-acting insulin",
+            "conceptID": "C1514498",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Long-acting insulin",
+            "conceptID": "C1515025",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Regular insulin",
+            "conceptID": "C0021655",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Insulin aspart",
+            "conceptID": "C0988542",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Insulin glargine",
+            "conceptID": "C1172927",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Insulin lispro",
+            "conceptID": "C0943070",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Metformin",
+            "conceptID": "C0025598",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Pramlintide",
+            "conceptID": "C1172012",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Glucagon",
+            "conceptID": "C0017814",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Insulin detemir",
+            "conceptID": "C1172388",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Insulin degludec",
+            "conceptID": "C2700311",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Sodium-glucose cotransporter-2 inhibitors",
+            "conceptID": "C2700220",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "diagnosticCodes": [
+        {
+            "term": "Type 1 diabetes mellitus",
+            "conceptID": "C0011854",
+            "vocabulary": "ICD10"
+        },
+        {
+            "term": "Type 1 diabetes with complications",
+            "conceptID": "C0342649",
+            "vocabulary": "ICD10"
+        },
+        {
+            "term": "Diabetes with ketoacidosis",
+            "conceptID": "C0241775",
+            "vocabulary": "ICD10"
+        }
+    ],
+    "symptoms": [
+        {
+            "term": "Polyuria",
+            "conceptID": "C0032617",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Polydipsia",
+            "conceptID": "C0032621",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Unexplained weight loss",
+            "conceptID": "C0043094",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Fatigue",
+            "conceptID": "C0015672",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Blurred vision",
+            "conceptID": "C0234592",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Diabetic ketoacidosis",
+            "conceptID": "C0011880",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Increased hunger",
+            "conceptID": "C0016429",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Slow wound healing",
+            "conceptID": "C0151692",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Numbness in extremities",
+            "conceptID": "C0162298",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Frequent infections",
+            "conceptID": "C0021311",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Diabetic neuropathy",
+            "conceptID": "C0011882",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hyperglycemia",
+            "conceptID": "C0020473",
+            "vocabulary": "SNOMED"
+        }
+    ]
+}

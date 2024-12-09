@@ -1,12 +1,12 @@
-Hemoglobin S quantitation,0.34778326749801636
-Sickle cell test,0.2486051321029663
-Peripheral blood smear,0.23537534475326538
-Hemoglobin electrophoresis,0.219721257686615
-Complete blood count,0.2100512534379959
-Hemoglobin F measurement,0.1819230318069458
-Genetic testing for hemoglobin variants,0.14362171292304993
-Ferritin level test,0.11705784499645233
-Liver function test,0.11083261668682098
-Hemoglobin level test,0.09334799647331238
-Reticulocyte count,0.08866091072559357
-Kidney function test,0.08009102195501328
+Hemoglobin S quantitation,0.34778326749801636,1
+Sickle cell test,0.2486051321029663,1
+Peripheral blood smear,0.23537534475326538,0
+Hemoglobin electrophoresis,0.219721257686615,1
+Complete blood count,0.2100512534379959,0
+Hemoglobin F measurement,0.1819230318069458,1
+Genetic testing for hemoglobin variants,0.14362171292304993,1
+Ferritin level test,0.11705784499645233,0
+Liver function test,0.11083261668682098,0
+Hemoglobin level test,0.09334799647331238,0
+Reticulocyte count,0.08866091072559357,1
+Kidney function test,0.08009102195501328,0

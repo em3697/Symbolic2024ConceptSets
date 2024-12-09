@@ -1,10 +1,10 @@
-Antihypertensive agent,0.2043115496635437
-Anticoagulant,0.18832018971443176
-Calcium channel blocker,0.12471812963485718
-Potassium binder,0.10488161444664001
-Iron supplementation,0.08084458857774734
-Erythropoietin,0.07958833873271942
-Statin medication,0.07208004593849182
-Angiotensin converting enzyme inhibitor,0.0670178085565567
-Vitamin D analog,0.006366405636072159
-Phosphate binder,0.0011998172849416733
+Antihypertensive agent,0.2043115496635437,0
+Anticoagulant,0.18832018971443176,0
+Calcium channel blocker,0.12471812963485718,0
+Potassium binder,0.1048816144466400,1
+Iron supplementation,0.08084458857774734,0
+Erythropoietin,0.07958833873271942,1
+Statin medication,0.07208004593849182,0
+Angiotensin converting enzyme inhibitor,0.0670178085565567,0
+Vitamin D analog,0.006366405636072159,0
+Phosphate binder,0.0011998172849416733,1

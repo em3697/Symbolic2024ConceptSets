@@ -1,10 +1,10 @@
-Hemodialysis,0.4380066990852356
-Home dialysis,0.32939738035202026
-Peritoneal dialysis,0.29999375343322754
-Continuous renal replacement therapy,0.21677076816558838
-Renal replacement therapy,0.20297814905643463
-Dialysis catheter,0.19017060101032257
-Kidney transplantation,0.18246468901634216
-Intermittent hemodialysis,0.15941326320171356
-Vascular access,0.10849730670452118
-Arteriovenous fistula,0.03572138398885727
+Hemodialysis,0.4380066990852356,1
+Home dialysis,0.32939738035202026,1
+Peritoneal dialysis,0.29999375343322754,1
+Continuous renal replacement therapy,0.21677076816558838,0
+Renal replacement therapy,0.20297814905643463,0
+Dialysis catheter,0.19017060101032257,1
+Kidney transplantation,0.18246468901634216,1
+Intermittent hemodialysis,0.15941326320171356,1
+Vascular access,0.10849730670452118,0
+Arteriovenous fistula,0.03572138398885727,1

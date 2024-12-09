@@ -1,0 +1,148 @@
+code,name,vocabulary
+0505F,"Hemodialysis plan of care documented (ESRD, P-ESRD)",CPT4
+0507F,Peritoneal dialysis plan of care documented (ESRD),CPT4
+3066F,"Documentation of treatment for nephropathy (eg, patient receiving dialysis, patient being treated for ESRD, CRF, ARF, or renal insufficiency, any visit to a nephrologist) (DM)",CPT4
+36145,"Introduction of needle or intracatheter; arteriovenous shunt created for dialysis (cannula, fistula, or graft)",CPT4
+36800,"Insertion of cannula for hemodialysis, other purpose (separate procedure); vein to vein",CPT4
+36810,"Insertion of cannula for hemodialysis, other purpose (separate procedure); arteriovenous, external (Scribner type)",CPT4
+4052F,Hemodialysis via functioning arteriovenous (AV) fistula (ESRD),CPT4
+4053F,Hemodialysis via functioning arteriovenous (AV) graft (ESRD),CPT4
+4054F,Hemodialysis via catheter (ESRD),CPT4
+4055F,Patient receiving peritoneal dialysis (ESRD),CPT4
+49421,"Insertion of tunneled intraperitoneal catheter for dialysis, open",CPT4
+90935,Hemodialysis procedure with single evaluation by a physician or other qualified health care professional,CPT4
+90937,Hemodialysis procedure requiring repeated evaluation(s) with or without substantial revision of dialysis prescription,CPT4
+90945,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies), with single evaluation by a physician or other qualified health care professional",CPT4
+90947,"Dialysis procedure other than hemodialysis (eg, peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies) requiring repeated evaluations by a physician or other qualified health care professional, with or without substantial re",CPT4
+90951,"End-stage renal disease (ESRD) related services monthly, for patients younger than 2 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 4 or more face-to-face visits by a",CPT4
+90952,"End-stage renal disease (ESRD) related services monthly, for patients younger than 2 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 2-3 face-to-face visits by a physi",CPT4
+90953,"End-stage renal disease (ESRD) related services monthly, for patients younger than 2 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 1 face-to-face visit by a physicia",CPT4
+90954,"End-stage renal disease (ESRD) related services monthly, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 4 or more face-to-face visits by a physician",CPT4
+90955,"End-stage renal disease (ESRD) related services monthly, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 2-3 face-to-face visits by a physician or ot",CPT4
+90956,"End-stage renal disease (ESRD) related services monthly, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 1 face-to-face visit by a physician or other",CPT4
+90957,"End-stage renal disease (ESRD) related services monthly, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 4 or more face-to-face visits by a physicia",CPT4
+90958,"End-stage renal disease (ESRD) related services monthly, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 2-3 face-to-face visits by a physician or o",CPT4
+90959,"End-stage renal disease (ESRD) related services monthly, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents; with 1 face-to-face visit by a physician or othe",CPT4
+90960,"End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 4 or more face-to-face visits by a physician or other qualified health care professional per month",CPT4
+90961,"End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 2-3 face-to-face visits by a physician or other qualified health care professional per month",CPT4
+90962,"End-stage renal disease (ESRD) related services monthly, for patients 20 years of age and older; with 1 face-to-face visit by a physician or other qualified health care professional per month",CPT4
+90963,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients younger than 2 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4
+90964,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 2-11 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4
+90965,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 12-19 years of age to include monitoring for the adequacy of nutrition, assessment of growth and development, and counseling of parents",CPT4
+90966,"End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 20 years of age and older",CPT4
+90967,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients younger than 2 years of age",CPT4
+90968,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 2-11 years of age",CPT4
+90969,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 12-19 years of age",CPT4
+90970,"End-stage renal disease (ESRD) related services for dialysis less than a full month of service, per day; for patients 20 years of age and older",CPT4
+90989,"Dialysis training, patient, including helper where applicable, any mode, completed course",CPT4
+90993,"Dialysis training, patient, including helper where applicable, any mode, course not completed, per training session",CPT4
+90999,"Unlisted dialysis procedure, inpatient or outpatient",CPT4
+031209D,"Bypass Innominate Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031209F,"Bypass Innominate Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03120AD,"Bypass Innominate Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03120AF,"Bypass Innominate Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03120JD,"Bypass Innominate Artery to Upper Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03120JF,"Bypass Innominate Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03120KD,"Bypass Innominate Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03120KF,"Bypass Innominate Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03120ZD,"Bypass Innominate Artery to Upper Arm Vein, Open Approach",ICD10
+03120ZF,"Bypass Innominate Artery to Lower Arm Vein, Open Approach",ICD10
+031309D,"Bypass Right Subclavian Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031309F,"Bypass Right Subclavian Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03130AD,"Bypass Right Subclavian Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03130AF,"Bypass Right Subclavian Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03130JD,"Bypass Right Subclavian Artery to Upper Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03130JF,"Bypass Right Subclavian Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03130KD,"Bypass Right Subclavian Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03130KF,"Bypass Right Subclavian Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03130ZD,"Bypass Right Subclavian Artery to Upper Arm Vein, Open Approach",ICD10
+03130ZD,"Bypass Right Subclavian Artery to Upper Arm Vein, Open Approach",ICD10
+03130ZF,"Bypass Right Subclavian Artery to Lower Arm Vein, Open Approach",ICD10
+031409D,"Bypass Left Subclavian Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031409F,"Bypass Left Subclavian Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03140AD,"Bypass Left Subclavian Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03140AF,"Bypass Left Subclavian Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03140JD,"Bypass Left Subclavian Artery to Upper Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03140JF,"Bypass Left Subclavian Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03140KD,"Bypass Left Subclavian Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03140KF,"Bypass Left Subclavian Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03140ZD,"Bypass Left Subclavian Artery to Upper Arm Vein, Open Approach",ICD10
+03140ZD,"Bypass Left Subclavian Artery to Upper Arm Vein, Open Approach",ICD10
+03140ZF,"Bypass Left Subclavian Artery to Lower Arm Vein, Open Approach",ICD10
+031509D,"Bypass Right Axillary Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031509F,"Bypass Right Axillary Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03150AD,"Bypass Right Axillary Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03150AF,"Bypass Right Axillary Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03150JD,"Bypass Right Axillary Artery to Upper Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03150JF,"Bypass Right Axillary Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03150KD,"Bypass Right Axillary Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03150KF,"Bypass Right Axillary Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03150ZD,"Bypass Right Axillary Artery to Upper Arm Vein, Open Approach",ICD10
+03150ZD,"Bypass Right Axillary Artery to Upper Arm Vein, Open Approach",ICD10
+03150ZF,"Bypass Right Axillary Artery to Lower Arm Vein, Open Approach",ICD10
+031609D,"Bypass Left Axillary Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031609F,"Bypass Left Axillary Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03160AD,"Bypass Left Axillary Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03160AF,"Bypass Left Axillary Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03160JD,"Bypass Left Axillary Artery to Upper Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03160JF,"Bypass Left Axillary Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03160KD,"Bypass Left Axillary Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03160KF,"Bypass Left Axillary Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03160ZD,"Bypass Left Axillary Artery to Upper Arm Vein, Open Approach",ICD10
+03160ZD,"Bypass Left Axillary Artery to Upper Arm Vein, Open Approach",ICD10
+03160ZF,"Bypass Left Axillary Artery to Lower Arm Vein, Open Approach",ICD10
+031709D,"Bypass Right Brachial Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031709F,"Bypass Right Brachial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03170AD,"Bypass Right Brachial Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03170AF,"Bypass Right Brachial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03170JD,"Bypass Right Brachial Artery to Upper Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03170JF,"Bypass Right Brachial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03170KD,"Bypass Right Brachial Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03170KF,"Bypass Right Brachial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03170ZD,"Bypass Right Brachial Artery to Upper Arm Vein, Open Approach",ICD10
+03170ZD,"Bypass Right Brachial Artery to Upper Arm Vein, Open Approach",ICD10
+03170ZF,"Bypass Right Brachial Artery to Lower Arm Vein, Open Approach",ICD10
+031809D,"Bypass Left Brachial Artery to Upper Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031809F,"Bypass Left Brachial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03180AD,"Bypass Left Brachial Artery to Upper Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03180AF,"Bypass Left Brachial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03180JD,"Bypass Left Brachial Artery to Upper Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03180JF,"Bypass Left Brachial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03180KD,"Bypass Left Brachial Artery to Upper Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03180KF,"Bypass Left Brachial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03180ZD,"Bypass Left Brachial Artery to Upper Arm Vein, Open Approach",ICD10
+03180ZD,"Bypass Left Brachial Artery to Upper Arm Vein, Open Approach",ICD10
+03180ZF,"Bypass Left Brachial Artery to Lower Arm Vein, Open Approach",ICD10
+031909F,"Bypass Right Ulnar Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+03190AF,"Bypass Right Ulnar Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+03190JF,"Bypass Right Ulnar Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+03190KF,"Bypass Right Ulnar Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+03190ZF,"Bypass Right Ulnar Artery to Lower Arm Vein, Open Approach",ICD10
+03190ZF,"Bypass Right Ulnar Artery to Lower Arm Vein, Open Approach",ICD10
+031A09F,"Bypass Left Ulnar Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031A0AF,"Bypass Left Ulnar Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+031A0JF,"Bypass Left Ulnar Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+031A0KF,"Bypass Left Ulnar Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+031A0ZF,"Bypass Left Ulnar Artery to Lower Arm Vein, Open Approach",ICD10
+031A0ZF,"Bypass Left Ulnar Artery to Lower Arm Vein, Open Approach",ICD10
+031B09F,"Bypass Right Radial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031B0AF,"Bypass Right Radial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+031B0JF,"Bypass Right Radial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+031B0KF,"Bypass Right Radial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+031B0ZF,"Bypass Right Radial Artery to Lower Arm Vein, Open Approach",ICD10
+031B0ZF,"Bypass Right Radial Artery to Lower Arm Vein, Open Approach",ICD10
+031C09F,"Bypass Left Radial Artery to Lower Arm Vein with Autologous Venous Tissue, Open Approach",ICD10
+031C0AF,"Bypass Left Radial Artery to Lower Arm Vein with Autologous Arterial Tissue, Open Approach",ICD10
+031C0JF,"Bypass Left Radial Artery to Lower Arm Vein with Synthetic Substitute, Open Approach",ICD10
+031C0KF,"Bypass Left Radial Artery to Lower Arm Vein with Nonautologous Tissue Substitute, Open Approach",ICD10
+031C0ZF,"Bypass Left Radial Artery to Lower Arm Vein, Open Approach",ICD10
+031C0ZF,"Bypass Left Radial Artery to Lower Arm Vein, Open Approach",ICD10
+3E1M39Z,"Irrigation of Peritoneal Cavity using Dialysate, Percutaneous Approach",ICD10
+5A1D00Z,"Performance of Urinary Filtration, Single",ICD10
+5A1D60Z,"Performance of Urinary Filtration, Multiple",ICD10
+38.95,Venous catheterization for renal dialysis,ICD9Proc
+39.27,Arteriovenostomy for renal dialysis,ICD9Proc
+39.42,Revision of arteriovenous shunt for renal dialysis,ICD9Proc
+39.43,Removal of arteriovenous shunt for renal dialysis,ICD9Proc
+39.95,Hemodialysis,ICD9Proc
+54.98,Peritoneal dialysis,ICD9Proc

@@ -1,5 +1,6 @@
 import anthropic
 from anthropic import Anthropic
+import my_secrets
 
 def setup_claude_client(api_key):
     """
@@ -40,10 +41,9 @@ def send_message(client, message, model="claude-3-opus-20240229", max_tokens=100
     except Exception as e:
         raise Exception(f"Error sending message: {str(e)}")
 
-# Example usage:
-if __name__ == "__main__":
+def run_query(query):
     # Replace with your actual API key
-    API_KEY = "your-api-key-here"
+    API_KEY = my_secrets.ANTHROPIC_KEY
     
     try:
         # Set up the client
@@ -52,12 +52,12 @@ if __name__ == "__main__":
         # Send a simple message
         response = send_message(
             claude,
-            "What are three interesting facts about dolphins?",
-            model="claude-3-opus-20240229",
-            max_tokens=1000
+            query,
+            model="claude-3-5-haiku-20241022",
+            max_tokens=4096
         )
         
-        print("Claude's response:", response)
+        return response
         
     except Exception as e:
         print(f"Error: {e}")

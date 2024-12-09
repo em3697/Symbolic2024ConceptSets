@@ -1,0 +1,314 @@
+{
+    "procedures": [
+        {
+            "term": "Peritoneal dialysis",
+            "conceptId": "C0031139",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hemodialysis",
+            "conceptId": "C0019004",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Arteriovenous fistula",
+            "conceptId": "C0162482",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Renal replacement therapy",
+            "conceptId": "C0035117",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Dialysis catheter",
+            "conceptId": "C0184211",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Home dialysis",
+            "conceptId": "C0600125",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Continuous renal replacement therapy",
+            "conceptId": "C0200003",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Vascular access",
+            "conceptId": "C0199230",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Kidney transplantation",
+            "conceptId": "C0022671",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Intermittent hemodialysis",
+            "conceptId": "C0442274",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "conditions": [
+        {
+            "term": "Chronic kidney disease",
+            "conceptId": "C0348956",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "End stage renal disease",
+            "conceptId": "C0022661",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Diabetic nephropathy",
+            "conceptId": "C0011881",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hypertensive kidney disease",
+            "conceptId": "C0740394",
+            "vocabulary": "ICD10"
+        },
+        {
+            "term": "Acute kidney injury",
+            "conceptId": "C0035220",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Polycystic kidney disease",
+            "conceptId": "C0022680",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Glomerulonephritis",
+            "conceptId": "C0017313",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Renal sclerosis",
+            "conceptId": "C0035078",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Lupus nephritis",
+            "conceptId": "C0024143",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Chronic tubulointerstitial nephritis",
+            "conceptId": "C0268033",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "tests": [
+        {
+            "term": "Estimated glomerular filtration rate",
+            "conceptId": "C1272419",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Serum creatinine",
+            "conceptId": "C0201875",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Blood urea nitrogen",
+            "conceptId": "C0356607",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Potassium level",
+            "conceptId": "C0020682",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Phosphorus level",
+            "conceptId": "C0032248",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Calcium level",
+            "conceptId": "C0595128",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Urine protein",
+            "conceptId": "C0202141",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Parathyroid hormone level",
+            "conceptId": "C0202022",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Sodium level",
+            "conceptId": "C0600884",
+            "vocabulary": "LOINC"
+        },
+        {
+            "term": "Hemoglobin level",
+            "conceptId": "C0019029",
+            "vocabulary": "LOINC"
+        }
+    ],
+    "comorbidities": [
+        {
+            "term": "Cardiovascular disease",
+            "conceptId": "C0007222",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Anemia",
+            "conceptId": "C0002871",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Hypertension",
+            "conceptId": "C0020538",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Diabetes mellitus",
+            "conceptId": "C0011849",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Congestive heart failure",
+            "conceptId": "C0018801",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Secondary hyperparathyroidism",
+            "conceptId": "C0221002",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Mineral bone disorder",
+            "conceptId": "C0268136",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Peripheral vascular disease",
+            "conceptId": "C0085096",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Dyslipidemia",
+            "conceptId": "C0242339",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Depression",
+            "conceptId": "C0011570",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "medications": [
+        {
+            "term": "Erythropoietin",
+            "conceptId": "C0014822",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Phosphate binder",
+            "conceptId": "C1154447",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Antihypertensive agent",
+            "conceptId": "C0003364",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Vitamin D analog",
+            "conceptId": "C0042866",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Calcium channel blocker",
+            "conceptId": "C0002794",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Angiotensin converting enzyme inhibitor",
+            "conceptId": "C0003015",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Statin medication",
+            "conceptId": "C0360590",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Potassium binder",
+            "conceptId": "C1944090",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Iron supplementation",
+            "conceptId": "C0237231",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Anticoagulant",
+            "conceptId": "C0003280",
+            "vocabulary": "SNOMED"
+        }
+    ],
+    "progressNoteKeywords": [
+        {
+            "term": "Dialysis adequacy",
+            "conceptId": "C0598285",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Fluid volume status",
+            "conceptId": "C0232417",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Medication reconciliation",
+            "conceptId": "C1254363",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Nutrition assessment",
+            "conceptId": "C0028708",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Comorbidity management",
+            "conceptId": "C0009455",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Vascular access management",
+            "conceptId": "C3897618",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Treatment complications",
+            "conceptId": "C0009566",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Patient education",
+            "conceptId": "C0030688",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Interdialytic weight monitoring",
+            "conceptId": "C0439770",
+            "vocabulary": "SNOMED"
+        },
+        {
+            "term": "Symptom management",
+            "conceptId": "C1283391",
+            "vocabulary": "SNOMED"
+        }
+    ]
+}

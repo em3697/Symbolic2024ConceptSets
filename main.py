@@ -6,31 +6,63 @@ import utils
 
 
 # Cataracts
-# utils.get_similarities('ConceptSets_EdgeCases/Big20/cataract-terms.json', 'Cataracts')
+# utils.get_similarities('ConceptSets_EdgeCases/Big20/cataract-umls-terms.json', 'Cataracts')
 # utils.get_differences('ConceptSets_EdgeCases/Big20/cataracts_PHOEBE_initial.csv', 'Cataracts')
 
+# Type 1 Diabetes
+# utils.get_similarities('ConceptSets_EdgeCases/Big20/type-1-diabetes-terminology.json', 'Type 1 Diabetes')
+
 # Rheumatoid Arthritis
-# utils.get_similarities('ConceptSets_EdgeCases/Big20/ra-clinical-terms.json', 'Rheumatoid arthritis')
+# utils.get_similarities('ConceptSets_EdgeCases/Big20/rheumatoid-arthritis-detailed-terminology.json', 'Rheumatoid arthritis')
 # utils.get_differences('ConceptSets_EdgeCases/Big20/RA_PHOEBE_initial.csv', 'Rheumatoid arthritis')
 
 # Sickle Cell
-# utils.get_similarities('ConceptSets_EdgeCases/Big20/sickle-cell-terms.json', 'Sickle Cell Anemia')
+# utils.get_similarities('ConceptSets_EdgeCases/Big20/sickle-cell-comprehensive-terminology.json', 'Sickle Cell Anemia')
 # utils.get_differences('ConceptSets_EdgeCases/Big20/SickleCellAnemia_PHOEBE_initial.csv', 'Sickle Cell Anemia')
 
-cataracts = {
-'comorbidities': 'Cataracts_comorbidities_output.csv',
-'diagnostic_tests': 'Cataracts_diagnostic_tests_output.csv',
-'medications_detailed': 'Cataracts_medications_detailed_output.csv',
-'medications': 'Cataracts_medications_not_detailed_output.csv',
-'procedures': 'Cataracts_procedures_output.csv',
-'progress_note': 'Cataracts_progress_note_keywords_output.csv',
-'surgical_parameters_detailed': 'Cataracts_surgical_parameters_detailed_output.csv',
-'surgical_parameters': 'Cataracts_surgical_parameters_not_detailed_output.csv',
-'symptoms': 'Cataracts_symptoms_output.csv',
-'to_remove': 'Cataracts_to_remove.csv',
-}
+# Dialysis for Chronic Kidney Disease
+# utils.get_similarities('ConceptSets_EdgeCases/Big20/dialysis-precise-umls-terms.json', 'Dialysis for Chronic Kidney Disease')
 
-utils.write_csv_to_sheets('1Wy6nSB73m0etmYJIPdocQJylF_y-18YfMcfAKkP54t4', cataracts, '/Users/em3697/Downloads/aou-ehr-ops-curation-test-2a2138f19033.json')
+# cataracts = {
+# 'comorbidities': 'Cataracts_comorbidities_output.csv',
+# 'diagnostic_tests': 'Cataracts_diagnostic_tests_output.csv',
+# 'medications_detailed': 'Cataracts_medications_detailed_output.csv',
+# 'medications': 'Cataracts_medications_not_detailed_output.csv',
+# 'procedures': 'Cataracts_procedures_output.csv',
+# 'progress_note': 'Cataracts_progress_note_keywords_output.csv',
+# 'surgical_parameters_detailed': 'Cataracts_surgical_parameters_detailed_output.csv',
+# 'surgical_parameters': 'Cataracts_surgical_parameters_not_detailed_output.csv',
+# 'symptoms': 'Cataracts_symptoms_output.csv',
+# 'to_remove': 'Cataracts_to_remove.csv',
+# }
+
+# utils.write_csv_to_sheets('1Wy6nSB73m0etmYJIPdocQJylF_y-18YfMcfAKkP54t4', cataracts, '/Users/em3697/Downloads/aou-ehr-ops-curation-test-2a2138f19033.json')
+
+overlap = utils.check_validity('ConceptSets_EdgeCases/RD_mapped_UMLS.csv', 'Dialysis for Chronic Kidney Disease Concepts - Anna - Additional procedures AO.csv')
+
+# sim = utils.get_similarities('ConceptSets_EdgeCases/dialysis_llmterms_2.json', 'dialysis for chronic kidney disease')
+
+import requests
+
+# Base URL
+base_url = "https://discovery.dbmi.columbia.edu/atlas/dev/WebApi/concepset/"
+
+# Make GET request
+try:
+    # Basic authentication
+
+    response = requests.get(base_url)
+    
+    # Check if request was successful
+    if response.status_code == 200:
+        data = response.json()
+        print(data)
+    else:
+        print(f"Request failed with status code: {response.status_code}")
+        
+except requests.exceptions.RequestException as e:
+    print(f"An error occurred: {e}")
+
 
 # # Load reference set and group by first column
 # reference_df = pd.read_csv('ConceptSets_EdgeCases/reference_sets.csv')

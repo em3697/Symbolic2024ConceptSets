@@ -146,34 +146,16 @@ def get_similarities(llm_output_path, input_concept):
 
     for key, value in llm_data.items():
         if isinstance(value, list):
-            if all(isinstance(item, str) for item in value):
+            if all(isinstance(item, dict) for item in value):
+
+                terms = [item['term'] for item in value]
+                
                 # pass list to coder to get similarity output
-                sim = coder.find_similarities(input_concept, value)
+                sim = coder.find_similarities(input_concept, terms)
 
                 # write similarity to a csv
                 utils.write_tuples_to_csv(f"{concept_var}_{key}_output.csv", sim)
                 print(f'output {key} csv')
-
-
-            elif all(isinstance(item, dict) for item in value):
-                print(f"Key '{key}' has a list of dictionaries:")
-                inner_keys = list(value[0].keys())
-                construct_list_with_detail = []
-                construct_list_without_detail = []
-                for item in value:
-                    detailed = item[inner_keys[0]] + ' ' + item[inner_keys[1]]
-                    not_detailed = item[inner_keys[0]]
-                    construct_list_with_detail.append(detailed)
-                    construct_list_without_detail.append(not_detailed)
-
-                # pass lists to coder to get similarity output
-                sim_detailed = coder.find_similarities(input_concept, construct_list_with_detail)
-                sim_not_detailed = coder.find_similarities(input_concept, construct_list_without_detail)
-
-                # write similarity to a csv
-                utils.write_tuples_to_csv(f"{concept_var}_{key}_detailed_output.csv", sim_detailed)
-                utils.write_tuples_to_csv(f"{concept_var}_{key}_not_detailed_output.csv", sim_not_detailed)
-                print(f'output {key} csvs')
 
             else:
                 print(f"Key '{key}' has a list with mixed data types.")
@@ -197,5 +179,47 @@ def get_differences(phoebe_output_path, input_concept):
     utils.write_tuples_to_csv(f"{concept_var}_to_remove.csv", removal)
 
     return
+def check_differences_exported(UMLS_mapped_output_path, anna_recs_path):
+    umls_mapped_df = pd.read_csv(UMLS_mapped_output_path)
+    umls_mapped_concepts = umls_mapped_df['Concept Name'].to_list()
 
-        
+    recs_df = pd.read_csv(anna_recs_path)
+    recs_concepts = recs_df['name'].to_list()
+    overlap = [value for value in recs_concepts if value not in umls_mapped_concepts]
+    return overlap
+
+def check_validity_exported(UMLS_mapped_output_path, anna_recs_path):
+    umls_mapped_df = pd.read_csv(UMLS_mapped_output_path)
+    umls_mapped_concepts = umls_mapped_df['Concept Name'].to_list()
+
+    recs_df = pd.read_csv(anna_recs_path)
+    recs_concepts = recs_df['name'].to_list()
+    overlap = [value for value in recs_concepts if value in umls_mapped_concepts]
+    return overlap
+
+def check_validity(UMLS_mapped_output_path, anna_recs_path):
+    umls_mapped_df = pd.read_csv(UMLS_mapped_output_path)
+    umls_mapped_concepts = umls_mapped_df['Name'].to_list()
+
+    recs_df = pd.read_csv(anna_recs_path)
+    recs_concepts = recs_df['name'].to_list()
+    overlap = [value for value in recs_concepts if value in umls_mapped_concepts]
+    return overlap
+
+def check_validity_concept_items(items, anna_recs_path):
+    recs_df = pd.read_csv(anna_recs_path)
+    recs_concepts = recs_df['name'].to_list()
+    overlap = [value for value in recs_concepts if value in items]
+    return overlap
+
+def check_missing_concepts_llm(output_path, anna_recs_path):
+    umls_mapped_df = pd.read_csv(output_path)
+    umls_mapped_concepts = umls_mapped_df['Concept Name'].to_list()
+
+    recs_df = pd.read_csv(anna_recs_path)
+    recs_concepts = recs_df['name'].to_list()
+    missing = [value for value in recs_concepts if value not in umls_mapped_concepts]
+    return missing
+
+def check_validity_api(exported_concepts, anna_recs_path):
+    pass

@@ -179,6 +179,13 @@ def get_differences(phoebe_output_path, input_concept):
     utils.write_tuples_to_csv(f"{concept_var}_to_remove.csv", removal)
 
     return
+
+def check_domain_additions(baseline_subset, domain_subset):
+    baseline = baseline_subset['Concept Name'].to_list()
+    domain = domain_subset['Concept Name'].to_list()
+    addition = [value for value in domain if value not in baseline]
+    return addition
+
 def check_differences_exported(UMLS_mapped_output_path, anna_recs_path):
     umls_mapped_df = pd.read_csv(UMLS_mapped_output_path)
     umls_mapped_concepts = umls_mapped_df['Concept Name'].to_list()

@@ -15,3 +15,6 @@ my_secrets.py
 
 mappedConcepts.csv
 mappedConceptsCtrl.csv
+mappedConceptsAll.csv
+includedConceptsAll.csv
+mappedConceptsProceduresAndBaseline.csv

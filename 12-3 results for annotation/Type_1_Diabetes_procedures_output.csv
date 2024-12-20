@@ -1,12 +1,12 @@
-Continuous glucose monitoring,0.17886361479759216,1
-Insulin dose adjustment,0.1148557960987091,1
-Islet cell transplantation,0.10213406383991241,1
-Diabetes management consultation,0.09804258495569229,1
-Nutritional counseling,0.08960328996181488,0
-Blood glucose self-monitoring,0.08914528787136078,1
-Diabetes education,0.08818463236093521,1
-Insulin pump therapy,0.08727167546749115,1
-Pancreas transplantation,0.07872532308101654,1
-Carbohydrate counting,0.03372141718864441,1
-Insulin injection,0.028486648574471474,1
-Diabetic foot care,0.0252227783203125,1
+Continuous glucose monitoring,0.17886361479759216,1,0
+Insulin dose adjustment,0.1148557960987091,1,1
+Islet cell transplantation,0.10213406383991241,1,1
+Diabetes management consultation,0.09804258495569229,1,0
+Nutritional counseling,0.08960328996181488,0,0
+Blood glucose self-monitoring,0.08914528787136078,1,0
+Diabetes education,0.08818463236093521,1,0
+Insulin pump therapy,0.08727167546749115,1,1
+Pancreas transplantation,0.07872532308101654,1,0
+Carbohydrate counting,0.03372141718864441,1,0
+Insulin injection,0.028486648574471474,1,1
+Diabetic foot care,0.0252227783203125,1,0

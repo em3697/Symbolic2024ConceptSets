@@ -1,10 +1,10 @@
-Cataract removal,0.20931822061538696,1
-Cataract surgery with intraocular lens insertion,0.18189358711242676,1
-Lens replacement,0.17389337718486786,1
-Laser cataract surgery,0.15066730976104736,1
-Intracapsular cataract extraction,0.14262062311172485,1
-Phacoemulsification,0.12389165908098221,1
-Corneal incision for cataract surgery,0.08148865401744843,1
-Extracapsular cataract extraction,0.066721111536026,1
-Anterior capsulotomy,0.006227262783795595,1
-Posterior capsulotomy,0.0013721361756324768,1
+Cataract removal,0.20931822061538696,1,1
+Cataract surgery with intraocular lens insertion,0.18189358711242676,1,1
+Lens replacement,0.17389337718486786,1,0
+Laser cataract surgery,0.15066730976104736,1,1
+Intracapsular cataract extraction,0.14262062311172485,1,1
+Phacoemulsification,0.12389165908098221,1,0
+Corneal incision for cataract surgery,0.08148865401744843,1,1
+Extracapsular cataract extraction,0.066721111536026,1,1
+Anterior capsulotomy,0.006227262783795595,1,0
+Posterior capsulotomy,0.0013721361756324768,1,0

@@ -1,12 +1,12 @@
-Hematopoietic stem cell transplant,0.22675304114818573,0
-Stem cell transplantation,0.22155088186264038,0
-Splenectomy,0.2105325311422348,1
-Hydroxyurea therapy,0.18691839277744293,1
-Exchange transfusion,0.15843705832958221,1
-Bone marrow transplantation,0.14267826080322266,0
-Erythrocytapheresis,0.1384495496749878,1
-Therapeutic phlebotomy,0.13038288056850433,0
-Prophylactic blood transfusion,0.08687730133533478,1
-Chronic transfusion therapy,0.08233287185430527,1
-Partial exchange transfusion,0.07556425034999847,1
-Surgical decompression,0.0617520809173584,0
+Hematopoietic stem cell transplant,0.22675304114818573,0,1
+Stem cell transplantation,0.22155088186264038,0,1
+Splenectomy,0.2105325311422348,1,0
+Hydroxyurea therapy,0.18691839277744293,1,1
+Exchange transfusion,0.15843705832958221,1,1
+Bone marrow transplantation,0.14267826080322266,0,1
+Erythrocytapheresis,0.1384495496749878,1,1
+Therapeutic phlebotomy,0.13038288056850433,0,0
+Prophylactic blood transfusion,0.08687730133533478,1,1
+Chronic transfusion therapy,0.08233287185430527,1,1
+Partial exchange transfusion,0.07556425034999847,1,1
+Surgical decompression,0.0617520809173584,0,0

@@ -1,0 +1,17 @@
+Cohort,Domain,Added Concept Count,Concept Count To Remove
+Dialysis for Chronic Kidney Disease,procedures,133,6
+Dialysis for Chronic Kidney Disease,tests,307,40
+Dialysis for Chronic Kidney Disease,medications,27,3
+Cataracts,procedures,2668,151
+Cataracts,symptoms,11,0
+Rheumatoid arthritis,tests,3269,328
+Rheumatoid arthritis,medications,56,6
+Rheumatoid arthritis,symptoms,283,38
+Sickle Cell Anemia,procedures,5463,998
+Sickle Cell Anemia,tests,6870,164
+Sickle Cell Anemia,medications,1,0
+Sickle Cell Anemia,symptoms,255,32
+Type 1 Diabetes,procedures,896,159
+Type 1 Diabetes,tests,1765,345
+Type 1 Diabetes,medications,4679,642
+Type 1 Diabetes,symptoms,49,0

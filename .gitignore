@@ -13,8 +13,4 @@ CODER/pretrain/__pycache__/
 __pycache__
 my_secrets.py
 
-mappedConcepts.csv
-mappedConceptsCtrl.csv
-mappedConceptsAll.csv
-includedConceptsAll.csv
-mappedConceptsProceduresAndBaseline.csv
+includedConceptsFinalAll.csv

@@ -1,10 +1,10 @@
-Blurred vision,0.2999219298362732
-Glare sensitivity,0.1660151332616806
-Clouded lens,0.16439267992973328
-Lens opacity,0.15679916739463806
-Reduced visual acuity,0.1355305314064026
-Double vision,0.1347079575061798
-Progressive vision loss,0.1344904750585556
-Decreased contrast sensitivity,0.126570925116539
-Color vision defect,0.12293274700641632
-Impaired night vision,0.08197426050901413
+Blurred vision,0.2999219298362732,0,1
+Glare sensitivity,0.1660151332616806,1,0
+Clouded lens,0.16439267992973328,1,1
+Lens opacity,0.15679916739463806,1,0
+Reduced visual acuity,0.1355305314064026,0,0
+Double vision,0.1347079575061798,0,0
+Progressive vision loss,0.1344904750585556,1,0
+Decreased contrast sensitivity,0.126570925116539,0,0
+Color vision defect,0.12293274700641632,0,0
+Impaired night vision,0.08197426050901413,1,0
